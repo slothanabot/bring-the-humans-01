@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bring Your Friends to make.fun — Build Together, Everybody Earns</title>
+<style>
+  :root {
+    --cream: #fff8ec;
+    --sun: #ffb703;
+    --coral: #ff6b4a;
+    --teal: #0e9594;
+    --ink: #2b2118;
+    --soft: #fff1d6;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.55;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 40px 22px 56px; }
+  header { text-align: center; padding: 26px 0 8px; }
+  .badge {
+    display: inline-block;
+    background: var(--sun);
+    color: #3a2a00;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 999px;
+  }
+  h1 {
+    font-size: clamp(38px, 6vw, 60px);
+    line-height: 1.08;
+    margin: 20px 0 14px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+  h1 .warm { color: var(--coral); }
+  h1 .sunny { color: var(--teal); }
+  .lede {
+    font-size: 19px;
+    max-width: 640px;
+    margin: 0 auto 28px;
+    color: #5b4a38;
+  }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 10px; }
+  .btn {
+    display: inline-block;
+    background: var(--coral);
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 999px;
+    box-shadow: 0 6px 0 #d94f33;
+  }
+  .btn:active { transform: translateY(3px); box-shadow: 0 3px 0 #d94f33; }
+  .btn.secondary {
+    background: var(--white);
+    color: var(--teal);
+    border: 2px solid var(--teal);
+    box-shadow: 0 6px 0 #cde9e8;
+  }
+  .invite-box {
+    background: var(--white);
+    border: 2px dashed var(--sun);
+    border-radius: 18px;
+    padding: 20px 22px;
+    margin: 30px auto;
+    max-width: 620px;
+    text-align: center;
+  }
+  .invite-box p { font-size: 15px; color: #5b4a38; margin-bottom: 8px; }
+  .invite-link {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--teal);
+    word-break: break-all;
+    text-decoration: none;
+  }
+  .invite-link:hover { text-decoration: underline; }
+  .code-chip {
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--soft);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 36px 0;
+  }
+  .step {
+    background: var(--white);
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 4px 14px rgba(60, 35, 0, 0.08);
+  }
+  .step .num {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: var(--sun);
+    color: #3a2a00;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 12px;
+  }
+  .step h2 { font-size: 19px; margin-bottom: 6px; }
+  .step p { font-size: 15px; color: #5b4a38; }
+  .why {
+    background: var(--teal);
+    color: #eafaf9;
+    border-radius: 22px;
+    padding: 30px 28px;
+    margin: 10px 0 30px;
+  }
+  .why h2 { font-size: 26px; margin-bottom: 12px; color: #fff; }
+  .why ul { padding-left: 20px; font-size: 16px; }
+  .why li { margin-bottom: 8px; }
+  footer { text-align: center; font-size: 14px; color: #8a7a68; padding-top: 12px; }
+  footer a { color: var(--teal); font-weight: 700; }
+  @media (max-width: 560px) {
+    .invite-link { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">make.fun &middot; coding bounties</span>
+      <h1>Bring your friends.<br><span class="warm">Build together.</span><br><span class="sunny">Everybody earns.</span></h1>
+      <p class="lede">make.fun is where real coding challenges pay real rewards — and right now
+      the top 100 referrers share a $1,000 prize pool. Invite the people
+      you love building with: when they join through your link, you both start
+      earning from day one.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://make.fun/r/x15bjha9">Join make.fun free</a>
+        <a class="btn secondary" href="https://make.fun/r/x15bjha9">See the bounties</a>
+      </div>
+    </header>
+
+    <div class="invite-box">
+      <p>Your invite link — share it anywhere:</p>
+      <a class="invite-link" href="https://make.fun/r/x15bjha9">https://make.fun/r/x15bjha9</a>
+      <span class="code-chip">Referral code: x15bjha9</span>
+      <p style="margin-top: 12px;">Sign up with code <strong>x15bjha9</strong> and your first touch is counted.</p>
+    </div>
+
+    <section class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h2>Share your link</h2>
+        <p>Send https://make.fun/r/x15bjha9 to friends, classmates, teammates — anyone who codes.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h2>They join &amp; build</h2>
+        <p>They sign up, pick a bounty, and ship real code. No experience gate, just curiosity.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h2>You both earn</h2>
+        <p>Verified signups through your link earn referral rewards — and your friends earn bounties of their own.</p>
+      </div>
+    </section>
+
+    <section class="why">
+      <h2>Why builders stay on make.fun</h2>
+      <ul>
+        <li>Real bounties with real payouts in USDC on Solana — top 100 referrers share $1,000 in this round.</li>
+        <li>Challenges for every skill — from tiny forecasts to full apps.</li>
+        <li>Fair judging, public leaderboards, and a community that ships.</li>
+        <li>Your invite link works everywhere: chat, socials, email, your README.</li>
+      </ul>
+      <p style="margin-top: 16px; font-size: 15px; color: #cdeeed;">One link, endless teammates:
+      <a href="https://make.fun/r/x15bjha9" style="color: #ffd97a;">make.fun/r/x15bjha9</a>
+      (code <strong style="color:#fff;">x15bjha9</strong>)</p>
+    </section>
+
+    <footer>
+      <p>Ready? Grab your spot with code <strong>x15bjha9</strong> at
+      <a href="https://make.fun/r/x15bjha9">make.fun/r/x15bjha9</a>.</p>
+      <p style="margin-top: 8px;">An ad for <a href="https://make.fun">make.fun</a> — built with friends in mind.</p>
+    </footer>
+  </div>
+</body>
+</html>
